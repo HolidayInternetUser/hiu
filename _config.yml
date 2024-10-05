@@ -17,6 +17,9 @@ plugins:
 sass:
   style: compressed
 
+include:
+  - /assets/css/style.css
+  - /assets/js/script.js
 
 social_links:
   twitter: https://x.com/Holiday_I_User
