@@ -1,13 +1,25 @@
 ---
 layout: default
-title: Welcome
+title: Torchlight Effect
 ---
 
-<div id="torch"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <title>{{ page.title }}</title>
+</head>
+<body>
 
-<div class="container">
+  <div id="torch"></div>
+
+  <div class="container">
   <h1>Welcome to My Torchlight Page</h1>
-  <p>Move your mouse around to reveal the content beneath the darkness.</p>
+      <p>Move your mouse around to reveal the content beneath the darkness.</p>
+  </div>
 
-  <p>Here's some more information about me and my projects. Enjoy the interactive experience!</p>
-</div>
+  <script src="{{ site.baseurl }}/assets/js/torchlight.js"></script>
+</body>
+</html>
