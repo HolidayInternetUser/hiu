@@ -3,7 +3,7 @@
 # Site settings
 title: Holiday Internet User's page
 description: "Explore my projects"
-baseurl: "" 
+baseurl: "/hiu" 
 url: "https://holidayinternetuser.github.io"
 
 # Author settings
