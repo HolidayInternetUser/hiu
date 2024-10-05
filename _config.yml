@@ -17,6 +17,22 @@ plugins:
 sass:
   style: compressed
 
+custom_css: |
+  body {
+      margin: 0;
+      height: 100vh; /* Full height */
+      background-color: blue; /* Blue background */
+      color: white; /* Text color */
+      display: flex; /* Center text */
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      flex-direction: column; /* Stack elements vertically */
+  }
+
+  h1, p {
+      text-align: center; /* Center text */
+  }
+
 social_links:
   twitter: https://x.com/Holiday_I_User
   github: https://github.com/HolidayInternetUser
