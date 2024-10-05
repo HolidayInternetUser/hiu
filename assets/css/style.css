@@ -1,36 +1,32 @@
-/* assets/css/style.css */
-
-/* Dark background overlay for the torchlight effect */
+/* Torchlight effect CSS */
 body {
-  margin: 0;
-  height: 100vh;
-  background-color: black;
-  overflow: hidden;
-  position: relative;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
 }
 
-/* The "torch" effect: circular spotlight */
 #torch {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  background: radial-gradient(circle, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 70%);
-  pointer-events: none;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    width: 200px; /* Width of the torchlight */
+    height: 200px; /* Height of the torchlight */
+    background: radial-gradient(circle, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 70%);
+    pointer-events: none; /* Ensures the torchlight doesn't interfere with mouse events */
+    transform: translate(-50%, -50%); /* Centering the torchlight */
 }
 
-/* Container for content that's "revealed" by the torch */
 .container {
-  color: white;
-  text-align: center;
-  padding: 100px;
+    color: white;
+    text-align: center;
+    padding: 100px;
 }
 
 h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 p {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
