@@ -1,4 +1,4 @@
-# _config.yml for GitHub Pages blog
+# _config.yml for GitHub Pages blog with a blue background
 
 # Site settings
 title: Holiday Internet User's Blog
@@ -10,19 +10,38 @@ url: "https://holidayinternetuser.github.io"
 author:
   name: Holiday Internet User
   email: holidayinternetuser@protonmail.com
-  bio: I like cats
-  twitter_username: Holiday_I_User
-  github_username: HolidayInternetUser
 
 # Appearance
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate # Enable pagination for blog posts
 
 # Pagination settings
 paginate: 5 # Number of posts per page
 paginate_path: "/page:num/" # Path for pagination
+
+# Custom CSS (this won't work natively but indicates your intention)
+custom_css: |
+  body {
+      margin: 0;
+      height: 100vh; /* Full height */
+      background-color: blue; /* Blue background */
+      color: white; /* Text color */
+      display: flex; /* Center text */
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      font-family: Arial, sans-serif; /* Font style */
+  }
+  h1, h2 {
+      color: white; /* Heading color */
+  }
+  a {
+      color: yellow; /* Link color */
+  }
+  footer {
+      margin-top: auto; /* Push footer to the bottom */
+  }
 
 # Social media settings (optional)
 social_links:
