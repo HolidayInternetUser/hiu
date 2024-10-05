@@ -26,7 +26,7 @@ sass:
 # Include the CSS and JS file for animations
 include:
   - /assets/css/style.css
-  - /assets/js/torchlight.js
+  - /assets/js/script.js
 
 
 
