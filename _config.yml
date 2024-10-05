@@ -1,8 +1,12 @@
-title: Holiday Internet User's Page
-description: "Explore my projects"
+# _config.yml for GitHub Pages blog
+
+# Site settings
+title: Holiday Internet User's Blog
+description: "Explore my projects and thoughts"
 baseurl: "/hiu" 
 url: "https://holidayinternetuser.github.io"
 
+# Author settings
 author:
   name: Holiday Internet User
   email: holidayinternetuser@protonmail.com
@@ -10,29 +14,17 @@ author:
   twitter_username: Holiday_I_User
   github_username: HolidayInternetUser
 
+# Appearance
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate # Enable pagination for blog posts
 
-sass:
-  style: compressed
+# Pagination settings
+paginate: 5 # Number of posts per page
+paginate_path: "/page:num/" # Path for pagination
 
-custom_css: |
-  body {
-      margin: 0;
-      height: 100vh; /* Full height */
-      background-color: blue; /* Blue background */
-      color: white; /* Text color */
-      display: flex; /* Center text */
-      justify-content: center; /* Center horizontally */
-      align-items: center; /* Center vertically */
-      flex-direction: column; /* Stack elements vertically */
-  }
-
-  h1, p {
-      text-align: center; /* Center text */
-  }
-
+# Social media settings (optional)
 social_links:
   twitter: https://x.com/Holiday_I_User
   github: https://github.com/HolidayInternetUser
