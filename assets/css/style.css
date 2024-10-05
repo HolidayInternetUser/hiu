@@ -1,32 +1,17 @@
-/* Torchlight effect CSS */
 body {
     margin: 0;
     height: 100vh;
-    background-color: black;
-    overflow: hidden;
-    position: relative;
+    background-color: black; /* Change background to black */
+    overflow: hidden; /* Prevent scrolling */
 }
 
-#torch {
+.torchlight {
     position: absolute;
-    width: 200px; /* Width of the torchlight */
-    height: 200px; /* Height of the torchlight */
-    background: radial-gradient(circle, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 70%);
-    pointer-events: none; /* Ensures the torchlight doesn't interfere with mouse events */
-    transform: translate(-50%, -50%); /* Centering the torchlight */
+    width: 150px; /* Width of the torchlight */
+    height: 150px; /* Height of the torchlight */
+    border-radius: 50%; /* Make it circular */
+    background: radial-gradient(circle, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.2) 80%, rgba(0, 0, 0, 0.8) 100%);
+    pointer-events: none; /* Allow clicks through the torchlight */
+    transition: background 0.1s ease; /* Smooth transition */
 }
 
-.container {
-    color: white;
-    text-align: center;
-    padding: 100px;
-}
-
-h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 1.2rem;
-}
