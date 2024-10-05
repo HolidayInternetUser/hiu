@@ -1,22 +1,27 @@
 body {
     margin: 0;
     height: 100vh;
-    background-color: #282c34; /* Dark background */
-    color: white; /* White text */
+    background-color: blue; /* Blue background */
+    overflow: hidden; /* Prevent scrollbars */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    position: relative;
 }
 
-.torchlight {
+.shape {
     position: absolute;
-    width: 200px; /* Width of the torchlight */
-    height: 200px; /* Height of the torchlight */
-    border-radius: 50%; /* Circle shape */
-    background: rgba(255, 255, 0, 0.5); /* Yellow light with transparency */
-    pointer-events: none; /* Ignore mouse events */
-    transition: background 0.3s ease; /* Smooth background transition */
+    width: 50px; /* Width of shapes */
+    height: 50px; /* Height of shapes */
+    border-radius: 50%; /* Make them circular */
+    opacity: 0.8; /* Slightly transparent */
+    transition: transform 0.5s ease, background-color 0.5s ease; /* Smooth transitions */
 }
 
+.purple {
+    background-color: purple; /* Purple color */
+}
+
+.orange {
+    background-color: orange; /* Orange color */
+}
