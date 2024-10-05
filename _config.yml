@@ -1,4 +1,4 @@
-# _config.yml for GitHub Pages blog with a blue background
+# _config.yml for a simple blog with a blue background
 
 # Site settings
 title: Holiday Internet User's Blog
@@ -20,30 +20,12 @@ plugins:
 paginate: 5 # Number of posts per page
 paginate_path: "/page:num/" # Path for pagination
 
-# Custom CSS (this won't work natively but indicates your intention)
+# Custom CSS (for blue background)
 custom_css: |
   body {
-      margin: 0;
-      height: 100vh; /* Full height */
-      background-color: blue; /* Blue background */
-      color: white; /* Text color */
-      display: flex; /* Center text */
-      flex-direction: column; /* Stack elements vertically */
-      align-items: center; /* Center horizontally */
-      justify-content: center; /* Center vertically */
-      font-family: Arial, sans-serif; /* Font style */
+    background-color: blue; /* Set the background color to blue */
+    color: white; /* Set text color to white for visibility */
+    font-family: Arial, sans-serif; /* Set font style */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding */
   }
-  h1, h2 {
-      color: white; /* Heading color */
-  }
-  a {
-      color: yellow; /* Link color */
-  }
-  footer {
-      margin-top: auto; /* Push footer to the bottom */
-  }
-
-# Social media settings (optional)
-social_links:
-  twitter: https://x.com/Holiday_I_User
-  github: https://github.com/HolidayInternetUser
