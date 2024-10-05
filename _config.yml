@@ -4,5 +4,12 @@ description: "Explore my projects and thoughts"
 author:
   name: Holiday Internet User
   email: holidayinternetuser@protonmail.com
+  bio: I like cats
+  twitter_username: Holiday_I_User
+  github_username: Holiday Internet User
+
+social_links:
+  twitter: https://x.com/Holiday_I_User
+  github: https://github.com/HolidayInternetUser
 
 theme: jekyll-theme-minimal
