@@ -1,36 +1,23 @@
-# _config.yml for GitHub Pages with torchlight animation
-
-# Site settings
-title: Holiday Internet User's page
+title: Holiday Internet User's Page
 description: "Explore my projects"
 baseurl: "/hiu" 
 url: "https://holidayinternetuser.github.io"
 
-# Author settings
 author:
   name: Holiday Internet User
   email: holidayinternetuser@protonmail.com
   bio: I like cats
   twitter_username: Holiday_I_User
-  github_username: Holiday Internet User
+  github_username: HolidayInternetUser
 
-# Appearance
 theme: minima
 plugins:
   - jekyll-feed
 
-# Custom styles and scripts
 sass:
   style: compressed
 
-# Include the CSS and JS file for animations
-include:
-  - /assets/css/style.css
-  - /assets/js/script.js
 
-
-
-# Social media settings (optional)
 social_links:
   twitter: https://x.com/Holiday_I_User
   github: https://github.com/HolidayInternetUser
