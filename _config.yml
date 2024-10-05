@@ -1,11 +1,11 @@
 title: Holiday Internet User's Blog
-description: "Explore my projects and thoughts
+description: "Explore my projects."
   name: Holiday Internet User
   email: holidayinternetuser@protonmail.com
   bio: I like cats
   twitter_username: Holiday_I_User
   github_username: Holiday Internet User
   twitter: https://x.com/Holiday_I_User
-  github: https://github.com/HolidayInternetUser"
+  github: https://github.com/HolidayInternetUser
 
 theme: jekyll-theme-minimal
