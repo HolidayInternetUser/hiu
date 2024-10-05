@@ -1,17 +1,22 @@
 body {
     margin: 0;
     height: 100vh;
-    background-color: black; /* Change background to black */
-    overflow: hidden; /* Prevent scrolling */
+    background-color: #282c34; /* Dark background */
+    color: white; /* White text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
 }
 
 .torchlight {
     position: absolute;
-    width: 150px; /* Width of the torchlight */
-    height: 150px; /* Height of the torchlight */
-    border-radius: 50%; /* Make it circular */
-    background: radial-gradient(circle, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.2) 80%, rgba(0, 0, 0, 0.8) 100%);
-    pointer-events: none; /* Allow clicks through the torchlight */
-    transition: background 0.1s ease; /* Smooth transition */
+    width: 200px; /* Width of the torchlight */
+    height: 200px; /* Height of the torchlight */
+    border-radius: 50%; /* Circle shape */
+    background: rgba(255, 255, 0, 0.5); /* Yellow light with transparency */
+    pointer-events: none; /* Ignore mouse events */
+    transition: background 0.3s ease; /* Smooth background transition */
 }
 
