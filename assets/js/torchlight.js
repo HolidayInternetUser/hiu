@@ -1,10 +1,6 @@
-// assets/js/torchlight.js
-
-// Create the torchlight effect
+// JavaScript to make the torchlight follow the mouse
 document.addEventListener("mousemove", function(e) {
-  var torch = document.getElementById("torch");
-
-  // Update the position of the torchlight
-  torch.style.left = e.pageX + "px";
-  torch.style.top = e.pageY + "px";
+    var torch = document.getElementById("torch");
+    torch.style.left = e.pageX + "px"; // Update the position of the torchlight
+    torch.style.top = e.pageY + "px";  // Update the position of the torchlight
 });
