@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Holiday Internet User's Blog"
-description: "Explore my projects."
+title: "{{ site.title }}"
+description: "{{ site.description }}"
 ---
 
 <style>
@@ -34,8 +34,9 @@ description: "Explore my projects."
 </style>
 
 <div class="container">
-    <p>{{ site.description }}</p> <!-- Site Description from _config.yml -->
+    <p>{{ site.description }}</p> <!-- Site description from _config.yml -->
 
+    {% if site.show_personal_info %}
     <h2>About Me:</h2>
     <ul>
         <li>Name: {{ site.name }}</li>
@@ -46,9 +47,11 @@ description: "Explore my projects."
     <h2>Social Media Links:</h2>
     <ul>
         <li><a href="{{ site.github }}" target="_blank">GitHub</a></li>
-        <li><a href="{{ site.youtube }}" target="_blank">YouTube (General)</a></li>
-        <li><a href="{{ site.youtube2 }}" target="_blank">YouTube (Math and Physics)</a></li>
+        <li><a href="{{ site.youtube }}" target="_blank">YouTube (Math and Physics)</a></li>
+        <li><a href="{{ site.youtube2 }}" target="_blank">YouTube (General)</a></li>
+        <li><a href="{{ site.youtube3 }}" target="_blank">YouTube (Code)</a></li>
         <li><a href="{{ site.x }}" target="_blank">X (formerly Twitter)</a></li>
         <li><a href="{{ site.discord_username }}" target="_blank">Discord</a></li>
     </ul>
+    {% endif %}
 </div>
