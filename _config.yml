@@ -1,11 +1,16 @@
-title: Holiday Internet User's Blog
-description: Explore my projects.
-name: Holiday Internet User
-email: holidayinternetuser@protonmail.com
-bio: I like cats
-twitter_username: Holiday_I_User
-github_username: Holiday Internet User
-twitter: https://x.com/Holiday_I_User
-github: https://github.com/HolidayInternetUser
+title: "Holiday Internet User's Blog"
+description: "Explore my projects."
+theme: "jekyll-theme-minimal"
 
-theme: jekyll-theme-minimal
+# Personal information
+name: "Holiday Internet User"
+email: "holidayinternetuser@protonmail.com"
+bio: "I like cats."
+twitter_username: "Holiday_I_User"
+github_username: "HolidayInternetUser"
+
+# Social links
+twitter: "https://x.com/Holiday_I_User"
+github: "https://github.com/HolidayInternetUser"
+
+show_personal_info: true
