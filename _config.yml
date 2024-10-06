@@ -6,11 +6,15 @@ theme: "jekyll-theme-minimal"
 name: "Holiday Internet User"
 email: "holidayinternetuser@protonmail.com"
 bio: "I like cats."
-twitter_username: "Holiday_I_User"
 github_username: "HolidayInternetUser"
+youtube_username: "Holiday Internet User"
+youtube_username2 : "Holiday Internet User Math and Physics"
+discord_username: "holidayinternetuser"
+x_username: "Holiday_I_User"
 
-# Social links
-twitter: "https://x.com/Holiday_I_User"
+youtube: "https://www.youtube.com/@HolidayInternetUserMathPhysics"
+youtube2: "https://www.youtube.com/@HolidayInternetUser"
+x: "https://x.com/Holiday_I_User"
 github: "https://github.com/HolidayInternetUser"
 
 show_personal_info: true
