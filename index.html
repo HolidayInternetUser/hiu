@@ -1,0 +1,37 @@
+---
+layout: default               # Using the default layout
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1>{{ site.name }}</h1>
+        <p><strong>Description:</strong> {{ site.description }}</p>
+        <p><strong>Bio:</strong> {{ site.bio }}</p>
+        
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li><strong>Twitter:</strong> <a href="{{ site.twitter }}" target="_blank">@{{ site.twitter_username }}</a></li>
+            <li><strong>GitHub:</strong> <a href="{{ site.github }}" target="_blank">{{ site.github_username }}</a></li>
+        </ul>
+    </header>
+    
+    <main>
+        <h2>Welcome to my blog!</h2>
+        <p>Here, I share my latest projects and thoughts. Stay tuned!</p>
+        
+        <!-- You can add more content here -->
+    </main>
+
+    <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.name }}. All rights reserved.</p>
+    </footer>
+</body>
+</html>
