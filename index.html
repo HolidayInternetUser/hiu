@@ -1,48 +1,48 @@
 ---
 layout: default
-title: "Holiday Internet User's Page" <!-- Updated Site Title -->
+title: "Holiday Internet User's Page"
 description: "{{ site.description }}"
 ---
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title> <!-- Browser tab title -->
+    <title>{{ site.title }}</title>
 </head>
 
 <style>
     body {
         background-color: purple;
-        color: white; /* Set text color to white for visibility */
-        font-family: Arial, sans-serif; /* Set font style */
-        margin: 0; /* Remove default margin */
-        padding: 20px; /* Add some padding */
-        text-align: left; /* Align text to the left for the entire body */
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        text-align: left;
     }
     h2 {
-        color: white; /* Heading color */
+        color: white;
     }
     a {
-        color: yellow; /* Link color */
-        text-decoration: none; /* Remove underline from links */
+        color: yellow;
+        text-decoration: none;
     }
     a:hover {
-        text-decoration: underline; /* Underline links on hover */
+        text-decoration: underline;
     }
     .container {
-        max-width: 600px; /* Limit the width of the container */
-        margin: 0 auto; /* Center the container */
+        max-width: 600px;
+        margin: 0 auto;
     }
     ul {
-        list-style-type: none; /* Remove bullet points from list */
-        padding: 0; /* Remove padding */
+        list-style-type: none;
+        padding: 0;
     }
 </style>
 
 <div class="container">
-    <h1>{{ site.title }}</h1> <!-- Updated Site Title -->
+    <h1>{{ site.title }}</h1>
     
-    <p>{{ site.description }}</p> <!-- Site description from _config.yml -->
+    <p>{{ site.description }}</p>
 
     {% if site.show_personal_info %}
     <h2>About Me:</h2>
