@@ -11,7 +11,7 @@ description: "Explore my projects."
         font-family: Arial, sans-serif; /* Set font style */
         margin: 0; /* Remove default margin */
         padding: 20px; /* Add some padding */
-        text-align: left; /* Align text to the left */
+        text-align: center; /* Center text for main container */
     }
     h1, h2 {
         color: white; /* Heading color */
@@ -23,35 +23,34 @@ description: "Explore my projects."
     a:hover {
         text-decoration: underline; /* Underline links on hover */
     }
+    .container {
+        max-width: 600px; /* Limit the width of the container */
+        margin: 0 auto; /* Center the container */
+        text-align: left; /* Align text within the container to the left */
+    }
     ul {
         list-style-type: none; /* Remove bullet points from list */
         padding: 0; /* Remove padding */
     }
-    .container {
-        display: flex; /* Use flexbox to align items */
-        flex-direction: column; /* Stack items vertically */
-        max-width: 600px; /* Limit the width of the container */
-        margin: 0 auto; /* Center the container */
-    }
 </style>
 
 <div class="container">
-    <h1>Welcome to Holiday Internet User's Blog!</h1>
-    <p>Explore my projects and thoughts. I like cats.</p>
+    <h1>{{ site.title }}</h1> <!-- Site Title from _config.yml -->
+    <p>{{ site.description }}</p> <!-- Site Description from _config.yml -->
 
     <h2>About Me:</h2>
     <ul>
-        <li>Name: Holiday Internet User</li>
-        <li>Email: <a href="mailto:holidayinternetuser@protonmail.com">holidayinternetuser@protonmail.com</a></li>
-        <li>Bio: I like cats.</li>
+        <li>Name: {{ site.name }}</li>
+        <li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li>Bio: {{ site.bio }}</li>
     </ul>
 
     <h2>Social Media Links:</h2>
     <ul>
-        <li><a href="https://github.com/HolidayInternetUser" target="_blank">GitHub</a></li>
-        <li><a href="https://www.youtube.com/@HolidayInternetUser" target="_blank">YouTube (General)</a></li>
-        <li><a href="https://www.youtube.com/@HolidayInternetUserMathPhysics" target="_blank">YouTube (Math and Physics)</a></li>
-        <li><a href="https://x.com/Holiday_I_User" target="_blank">X (formerly Twitter)</a></li>
-        <li><a href="https://discord.com/users/holidayinternetuser" target="_blank">Discord</a></li>
+        <li><a href="{{ site.github }}" target="_blank">GitHub</a></li>
+        <li><a href="{{ site.youtube }}" target="_blank">YouTube (General)</a></li>
+        <li><a href="{{ site.youtube2 }}" target="_blank">YouTube (Math and Physics)</a></li>
+        <li><a href="{{ site.x }}" target="_blank">X (formerly Twitter)</a></li>
+        <li><a href="{{ site.discord_username }}" target="_blank">Discord</a></li>
     </ul>
 </div>
