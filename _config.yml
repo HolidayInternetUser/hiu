@@ -1,6 +1,6 @@
 title: "Holiday Internet User's Page"
 description: "Explore my projects."
-projects: "Webcam Viewer"
+project1: "Webcam Viewer"
 webcamviewer: "https://github.com/HolidayInternetUser/webcamviewer"
 theme: "jekyll-theme-minimal"
 
