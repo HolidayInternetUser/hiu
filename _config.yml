@@ -4,9 +4,8 @@ project1: "Webcam Viewer"
 webcamviewer: "https://github.com/HolidayInternetUser/webcamviewer"
 theme: "jekyll-theme-minimal"
 
-# Personal information
 name: "Holiday Internet User"
-email: "h.i.u.contactemail@protonmail.com
+email: "h.i.u.contactemail@protonmail.com"
 bio: "I like cats and tech."
 github_username: "HolidayInternetUser"
 youtube_username: "Holiday Internet User"
